@@ -11,15 +11,12 @@ for i in range(4):
     print("Searching for Hackers.")
     sleep(0.5)
     clear()
-    sleep(0.15)
     print("Searching for Hackers .")
     sleep(0.5)
     clear()
-    sleep(0.15)
     print("Searching for Hackers  .")
     sleep(0.5)
     clear()
-    sleep(0.15)
 
 clear()
 
@@ -30,15 +27,10 @@ dl = list(d)
 # print(dl)
 
 print(s)
-for i in dl:
-    print(i)
-    sleep(0.1)
+
 
 clear()
-
-print(s)
-print(d)
-
+print(dl)
 with open("names.txt", "r", encoding="utf8") as file:
     txtname = file.read()
 
